@@ -6,7 +6,7 @@ set(SRC_FILES Class.cpp)
 # -----------------------------------------------
 # LIBRARIES (uncomment and use what are needed)
 # -----------------------------------------------
-# set(LIBS ${OpenCV_LIBS} ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} Qt5::Quick Qt5::Widgets)
+# set(LIBS ${OpenCV_LIBS} ${OPENGL_LIBRARIES} Qt5::Quick Qt5::Widgets)
 
 # -----------------------------------------------
 # 
