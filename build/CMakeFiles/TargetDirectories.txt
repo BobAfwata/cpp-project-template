@@ -1,3 +1,0 @@
-/home/nacho/Downloads/cpp-project-template/build/examples/CMakeFiles/demo.dir
-/home/nacho/Downloads/cpp-project-template/build/CMakeFiles/library_doc.dir
-/home/nacho/Downloads/cpp-project-template/build/src/CMakeFiles/library_lib.dir

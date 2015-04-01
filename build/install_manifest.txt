@@ -1,4 +1,0 @@
-/home/nacho/lib/cmake/Findlibrary.cmake
-/home/nacho/lib/liblibrary.so
-/home/nacho/include/library/Class.hpp
-/home/nacho/bin/demo
