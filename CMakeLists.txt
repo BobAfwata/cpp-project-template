@@ -31,9 +31,9 @@ endif()
 # DEPENDENCIES (uncomment what is needed)
 # -----------------------------------------------
 # find_package(OpenCV REQUIRED)
-# find_package(Qt5Widgets)
-# find_package(Qt5Quick)
 # find_package(OpenGL REQUIRED)
+# find_package(Qt5Quick REQUIRED)
+# find_package(Qt5Widgets REQUIRED)
 
 # -----------------------------------------------
 # INCLUDE DIRECTORIES (uncomment what is needed)
