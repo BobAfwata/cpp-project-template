@@ -9,7 +9,7 @@ set(SRC_FILES Class.cpp)
 # set(LIBS ${OpenCV_LIBS} ${OPENGL_LIBRARIES} Qt5::Quick Qt5::Widgets)
 
 # -----------------------------------------------
-# 
+# LINKING AND INSTALLING
 # -----------------------------------------------
 add_library(${PROJECT_NAME}_lib SHARED ${SRC_FILES})
 target_link_libraries(${PROJECT_NAME}_lib ${LIBS})
