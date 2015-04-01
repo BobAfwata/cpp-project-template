@@ -51,12 +51,6 @@ else()
 endif()
 
 # -----------------------------------------------
-# CONFIGURE FILE
-# -----------------------------------------------
-configure_file("${PROJECT_SOURCE_DIR}/cmake/config.cmake.in" "${PROJECT_BINARY_DIR}/${PROJECT_NAME}Config.cmake" @ONLY)
-install(FILES "${PROJECT_BINARY_DIR}/${PROJECT_NAME}Config.cmake" DESTINATION lib/cmake/)
-
-# -----------------------------------------------
 # SUBDIRECTORIES
 # -----------------------------------------------
 add_subdirectory(src)
@@ -72,6 +66,12 @@ if(BUILD_DOC)
     add_custom_target(${PROJECT_NAME}_doc ALL ${DOXYGEN_EXECUTABLE} ${PROJECT_BINARY_DIR}/doc/Doxyfile)
   endif()
 endif()
+
+# -----------------------------------------------
+# CONFIGURE FILE
+# -----------------------------------------------
+configure_file("${PROJECT_SOURCE_DIR}/cmake/config.cmake.in" "${PROJECT_BINARY_DIR}/${PROJECT_NAME}Config.cmake" @ONLY)
+install(FILES "${PROJECT_BINARY_DIR}/${PROJECT_NAME}Config.cmake" DESTINATION lib/cmake/${PROJECT_NAME}/)
 
 # -----------------------------------------------
 # BUILD SUMARY
