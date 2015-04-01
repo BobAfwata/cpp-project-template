@@ -1,10 +1,16 @@
+# -----------------------------------------------
+# SOURCE FILES
+# -----------------------------------------------
 set(SRC_FILES Class.cpp)
 
-set(LIBS ${OpenCV_LIBS})
-# set(LIBS ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
-# set(LIBS Qt5::Quick Qt5::Widgets)
+# -----------------------------------------------
+# LIBRARIES (uncomment and use what are needed)
+# -----------------------------------------------
+# set(LIBS ${OpenCV_LIBS} ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} Qt5::Quick Qt5::Widgets)
 
-# as a library (always)
+# -----------------------------------------------
+# 
+# -----------------------------------------------
 add_library(${PROJECT_NAME}_lib SHARED ${SRC_FILES})
 target_link_libraries(${PROJECT_NAME}_lib ${LIBS})
 set_target_properties(${PROJECT_NAME}_lib PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
