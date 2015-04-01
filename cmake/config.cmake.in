@@ -11,7 +11,7 @@
 # 
 # set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "/path/to/folder")
 #
-# Change the path "/path/to/folder/" where Find@PROJECT_NAME@.cmake is stored
+# Change the path "/path/to/folder/" where @PROJECT_NAME@Config.cmake is stored
 # ===========================================================================
 
 include_directories("@CMAKE_INSTALL_PREFIX@/include")
