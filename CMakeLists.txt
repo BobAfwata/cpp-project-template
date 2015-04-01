@@ -28,18 +28,18 @@ if(${CMAKE_COMPILER_IS_GNUCXX})
 endif()
 
 # -----------------------------------------------
-# DEPENDENCIES
+# DEPENDENCIES (uncomment what is needed)
 # -----------------------------------------------
-find_package(OpenCV REQUIRED)
+# find_package(OpenCV REQUIRED)
 # find_package(Qt5Widgets)
 # find_package(Qt5Quick)
 # find_package(OpenGL REQUIRED)
 
 # -----------------------------------------------
-# INCLUDE DIRECTORIES
+# INCLUDE DIRECTORIES (uncomment what is needed)
 # -----------------------------------------------
 include_directories(include)
-include_directories(${OpenCV_INCLUDE_DIRS})
+# include_directories(${OpenCV_INCLUDE_DIRS})
 
 # -----------------------------------------------
 # SHARED LIBS
