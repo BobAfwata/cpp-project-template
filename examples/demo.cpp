@@ -2,7 +2,7 @@
 
 int main()
 {
-	lib::Class example(10);
+    lib::Class example(10);
 
-	return 0;
+    return 0;
 }
